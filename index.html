@@ -49,8 +49,8 @@
 </header>
 <main>
     <div class="container-fluid">
-        <div class="category-list">
-            <ul class="py-3">
+        <div class="container category-list">
+            <ul class="">
                 <li>
                     <a href="">Nature</a>
                 </li>
@@ -248,20 +248,50 @@
 
             </div>
         </section>
+        <section class="section section-3">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message-text" class="col-form-label">Message:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </main>
 <footer>
-    <div class="container">
-    <div class="row">
-        <div class="col">
-            <h2>Stay in Touch</h2>
-            <hr>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    <div class="container py-3">
+        <div class="row justify-content-center">
+            <div class="col d-flex flex-column align-items-center">
+                <h2>Stay in Touch</h2>
+                <hr>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Enter your email address"
+                           aria-label="Enter your email address" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
             </div>
         </div>
-    </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">

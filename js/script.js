@@ -6,8 +6,8 @@ $(document).ready(function () {
         rows: 2,
         slidesPerRow: 3,
         arrows: true,
-        nextArrow: '<button type="button" class="slick-prev btn btn-success"></button>',
-        prevArrow: '<button type="button" class="slick-next btn btn-success"></button>',
+        nextArrow: '<button type="button" class="slick-prev"></button>',
+        prevArrow: '<button type="button" class="slick-next "></button>',
 
     })
 })
