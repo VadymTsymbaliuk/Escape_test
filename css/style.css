@@ -150,7 +150,6 @@ hr {
 
 .card {
     margin: 10px;
-
 }
 
 .card img {
@@ -177,6 +176,16 @@ footer {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.error-value {
+    border: 1px solid red;
+    box-shadow: inset -1px 1px 10px 0px #FF0000FF,
+    inset 1px -1px 10px 0px #FF0000FF;
+}
+
+#email::placeholder {
+    color: red;
 }
 
 footer .col {
