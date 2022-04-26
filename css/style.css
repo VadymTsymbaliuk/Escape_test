@@ -69,6 +69,7 @@ header .col h1 {
 header .col p {
     color: rgba(255, 255, 255, 0.63);
     margin-bottom: 30px;
+    font-size: 1.2rem;
 }
 
 header .btn {
@@ -76,9 +77,13 @@ header .btn {
     background: #DD783F;
     padding: 12px 31px;
 }
+header .btn:focus{
+    box-shadow: 0 0 0 0.25rem rgb(253 113 13 / 25%)
+}
 
 .category-list li {
     padding: 10px 0;
+    transition: 0.5s;
 }
 
 .category-list li:hover {
@@ -233,15 +238,6 @@ footer {
     background-size: cover;
 }
 
-.error-value {
-    border: 1px solid red;
-    box-shadow: inset -1px 1px 10px 0px #FF0000FF,
-    inset 1px -1px 10px 0px #FF0000FF;
-}
-
-#email::placeholder {
-    color: red;
-}
 
 footer .col {
     max-width: 500px;
