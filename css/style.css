@@ -280,7 +280,8 @@ footer h2 {
     }
 
     .category-list ul {
-        justify-content: start;
+        width: 400px;
+        margin: 0 auto;
     }
 
     .featured-post_container {
@@ -297,6 +298,11 @@ footer h2 {
     .catalog-container {
         grid-template-columns: 250px;
         gap: 15px;
+
+    }
+    .category-list ul {
+        width: 300px;
+        padding: 0;
 
     }
 }
