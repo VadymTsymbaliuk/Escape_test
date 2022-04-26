@@ -86,6 +86,28 @@ header .btn {
 .section-2 {
     padding-bottom: 80px;
 }
+.catalog-container{
+    display: grid;
+    grid-template-columns: 296px 296px 296px;
+    gap: 25px;
+    justify-content: center;
+}
+.card{
+    max-width: 296px;
+}
+.card-body{
+    height: 96px;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer img{
+    margin-right: 10px
+}
+.card-footer p{
+    margin: 0;
+}
 
 .category-list ul {
     list-style: none;
@@ -146,10 +168,6 @@ hr {
 .featured-post_item:nth-child(3) {
     background: url("../images/sec-1_img-2.png") no-repeat center center;
     background-size: cover;
-}
-
-.card {
-    margin: 10px;
 }
 
 .card img {
