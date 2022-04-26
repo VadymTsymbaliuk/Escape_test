@@ -1,16 +1,12 @@
+let email = document.querySelector('.email')
+let submitBtn = document.querySelector('.btn-submit')
 
-const formInput = document.querySelectorAll('.form-control')
-
-formInput.forEach(function (el) {
-    el.addEventListener("input", function (e) {
-        if (el.value) {
-            if (el.validity.typeMismatch) {
-                el.setCustomValidity("Я очікую дані!");
-            } else {
-                el.setCustomValidity("")
-            }
-        } else {
-            el.classList.toggle('error-value')
-        }
-    })
+console.log(email.value)
+submitBtn.addEventListener('click', function () {
+    if(!email.value){
+        email.setAttribute("placeholder", 'add address')
+        console.log('error')
+    }else {
+        console.log(email.value)
+    }
 })

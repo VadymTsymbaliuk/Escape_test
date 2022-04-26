@@ -23,13 +23,27 @@ h1 {
 }
 
 h2 {
-    font-family: 'Lora', serif;
-    font-size: 2.5rem;
+    font-family: 'Oxygen', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 h3 {
     font-family: 'Lora', serif;
     font-size: 2rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Lora', serif;
+    font-size: 1.14rem;
+    font-weight: 400;
 }
 
 header {
@@ -86,26 +100,45 @@ header .btn {
 .section-2 {
     padding-bottom: 80px;
 }
-.catalog-container{
+
+.catalog-container {
     display: grid;
     grid-template-columns: 296px 296px 296px;
     gap: 25px;
     justify-content: center;
 }
-.card{
+
+.card {
     max-width: 296px;
 }
-.card-body{
+
+.card-body {
     height: 96px;
+    font-size: 13px;
 }
-.card-footer{
+
+.card-body h5 {
+    color: rgba(16, 19, 21, 1);
+    font-size: 16px;
+}
+
+.card-body p {
+    color: rgba(122, 122, 122, 1);
+}
+
+.card-footer {
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
+    color: rgba(153, 153, 153, 1);
+
 }
-.card-footer img{
+
+.card-footer img {
     margin-right: 10px
 }
-.card-footer p{
+
+.card-footer p {
     margin: 0;
 }
 
@@ -134,13 +167,17 @@ hr {
 }
 
 .featured-post_item {
-    height: 280px;
+    min-height: 280px;
     max-width: 460px;
     padding: 20px;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: end;
+}
+
+.featured-post_item  p {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .featured-post_item_author {
@@ -215,4 +252,55 @@ footer .col {
 footer .navbar {
     background: rgba(26, 25, 25, 0.26);
     backdrop-filter: blur(10px);
+}
+
+footer h2 {
+    font-size: 1.8rem;
+}
+
+.btn-submit {
+    padding: 18px 43px;
+    background: rgba(255, 255, 255, 0.28);
+}
+
+
+@media screen and (max-width: 980px) {
+    .catalog-container {
+        grid-template-columns: 230px 230px 230px;
+    }
+    .card-body {
+        height: 110px;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .catalog-container {
+
+        grid-template-columns: 230px 230px;
+        gap: 15px;
+
+    }
+
+    .category-list ul {
+        justify-content: start;
+    }
+
+    .featured-post_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured-post_item {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and  (max-width: 540px) {
+    .catalog-container {
+        grid-template-columns: 250px;
+        gap: 15px;
+
+    }
 }
