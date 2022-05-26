@@ -1,12 +1,13 @@
+"use strict";
 let email = document.querySelector('.email')
 let submitBtn = document.querySelector('.btn-submit')
 
 console.log(email.value)
 submitBtn.addEventListener('click', function () {
-    if(!email.value){
+    if (!email.value) {
         email.setAttribute("placeholder", 'Enter address')
         console.log('error')
-    }else {
+    } else {
         console.log(email.value)
     }
 })
