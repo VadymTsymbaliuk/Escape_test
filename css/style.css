@@ -402,8 +402,16 @@ footer .navbar-brand {
 
 
 @media screen and (max-width: 980px) {
+    header, main, footer {
+        padding: 0 10px;
+    }
+
     .catalog-container {
         grid-template-columns: 230px 230px 230px;
+    }
+
+    .category-list {
+        flex-flow: row wrap;
     }
 
     .card-body {

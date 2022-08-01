@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "img": "images/sec-2_img-1.png",
+      "altimg": "vegy",
+      "title": "Still Standing Tall",
+      "descr": "Life begins at the end of your comfort zone.",
+      "userLogo": "images/user-avatar-2.svg",
+      "userAlt": "user",
+      "userName": "William Wong",
+      "datePublication": "9/25/2015"
+    },
+    {
+      "img": "images/sec-2_img-1.png",
+      "altimg": "vegy",
+      "title": "Still Standing Tall",
+      "descr": "Life begins at the end of your comfort zone.",
+      "userLogo": "images/user-avatar-2.svg",
+      "userAlt": "user",
+      "userName": "William Wong",
+      "datePublication": "9/25/2015"
+    },
+    {
+      "img": "images/sec-2_img-1.png",
+      "altimg": "vegy",
+      "title": "Still Standing Tall",
+      "descr": "Life begins at the end of your comfort zone.",
+      "userLogo": "images/user-avatar-2.svg",
+      "userAlt": "user",
+      "userName": "William Wong",
+      "datePublication": "9/25/2015"
+    },
+    {
+      "img": "images/sec-2_img-1.png",
+      "altimg": "vegy",
+      "title": "Still Standing Tall",
+      "descr": "Life begins at the end of your comfort zone.",
+      "userLogo": "images/user-avatar-2.svg",
+      "userAlt": "user",
+      "userName": "William Wong",
+      "datePublication": "9/25/2015"
+    },
+    {
+      "img": "images/sec-2_img-1.png",
+      "altimg": "vegy",
+      "title": "Still Standing Tall",
+      "descr": "Life begins at the end of your comfort zone.",
+      "userLogo": "images/user-avatar-2.svg",
+      "userAlt": "user",
+      "userName": "William Wong",
+      "datePublication": "9/25/2015"
+    },
+    {
+      "img": "images/sec-2_img-1.png",
+      "altimg": "vegy",
+      "title": "Still Standing Tall",
+      "descr": "Life begins at the end of your comfort zone.",
+      "userLogo": "images/user-avatar-2.svg",
+      "userAlt": "user",
+      "userName": "William Wong",
+      "datePublication": "9/25/2015"
+    },
+    {
+      "img": "images/sec-2_img-1.png",
+      "altimg": "vegy",
+      "title": "Still Standing Tall",
+      "descr": "Life begins at the end of your comfort zone.",
+      "userLogo": "images/user-avatar-2.svg",
+      "userAlt": "user",
+      "userName": "William Wong",
+      "datePublication": "9/25/2015"
+    }
+  ]
+}
